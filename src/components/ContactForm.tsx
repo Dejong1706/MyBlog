@@ -48,11 +48,11 @@ export default function ContactForm() {
   };
 
   return (
-    <section className="w-full max-w-md">
+    <section className="w-full max-w-md m-5">
       {banner && <Banner banner={banner} />}
       <form
         onSubmit={onSubmit}
-        className="w-full flex flex-col gap-2 my-4 p-4 bg-slate-700 rounded-xl"
+        className="w-full flex flex-col gap-2 my-4 p-4 bg-violet-100 rounded-xl"
       >
         <label htmlFor="from" className="font-semibold">
           Your Email
@@ -65,6 +65,7 @@ export default function ContactForm() {
           autoFocus
           value={form.from}
           onChange={onChange}
+          className="outline-slate-300"
         />
         <label htmlFor="subject" className="font-semibold">
           Subject
@@ -76,6 +77,7 @@ export default function ContactForm() {
           required
           value={form.subject}
           onChange={onChange}
+          className="outline-slate-300"
         />
         <label htmlFor="message" className="font-semibold">
           Message
@@ -87,9 +89,9 @@ export default function ContactForm() {
           required
           value={form.message}
           onChange={onChange}
-          className="text-black"
+          className="text-black outline-slate-300"
         />
-        <button className="bg-yellow-300 text-black font-bold hover:bg-yellow-400">
+        <button className="bg-violet-400 text-black font-bold hover:bg-violet-500">
           Submit
         </button>
       </form>
