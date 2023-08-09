@@ -62,5 +62,53 @@
     "category": "front",
     "path": "frontend-explanation",
     "featured": false
+  },
+  {
+    "title": "프론트엔드 프레임워크?",
+    "description": "프론트엔드 개발자들이 사용하는 프레임워크 장,단점",
+    "date": "2023-08-09",
+    "category": "front",
+    "path": "frontend-framework",
+    "featured": false
+  },
+  {
+    "title": "Git 기초 사용법",
+    "description": "git 기초 사용법",
+    "date": "2023-08-09",
+    "category": "Git",
+    "path": "git-use",
+    "featured": false
+  },
+  {
+    "title": "NEXT.JS 설명",
+    "description": "NEXT.JS 설명",
+    "date": "2023-08-09",
+    "category": "nextJS",
+    "path": "nextjs-use",
+    "featured": false
+  },
+  {
+    "title": "Git을 사용하는 이유",
+    "description": "Git을 사용하는이유",
+    "date": "2023-08-09",
+    "category": "git",
+    "path": "gituse-reason",
+    "featured": false
+  },
+  {
+    "title": "2023 review",
+    "description": "2023 review",
+    "date": "2023-08-09",
+    "category": "front",
+    "path": "review-2023",
+    "featured": false
+  },
+  {
+    "title": "Tailwind CSS",
+    "description": "Tailwind CSS",
+    "date": "2023-08-09",
+    "category": "css",
+    "path": "tailwindcss",
+    "featured": false
   }
 ]
