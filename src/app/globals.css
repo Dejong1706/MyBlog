@@ -4,6 +4,8 @@
 
 html,
 body {
+  margin: 0;
+  padding: 0;
   height: 100vh;
   overflow-y: auto;
   background-color: rgb(196 181 253);

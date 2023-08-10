@@ -4,7 +4,7 @@ import profileImage from "../../public/images/profile.jpg";
 
 export default function Hero() {
   return (
-    <section className="m-auto bg-white rounded-xl w-1/2 border-2 border-black p-4">
+    <section className="w-4/5 lg:w-1/2 m-auto bg-white rounded-xl border-2 border-black p-4">
       <Image
         className="mx-auto rounded-full"
         src={profileImage}
@@ -13,9 +13,13 @@ export default function Hero() {
         height={250}
         priority
       />
-      <h2 className="text-center text-3xl font-bold mt-2">{"Hi, I'm 병근"}</h2>
+      <h2 className="text-2xl lg:text-3xl text-center font-bold mt-2">
+        {"Hi, I'm 병근"}
+      </h2>
       <h3 className="text-center text-xl font-semibold">Front-end Engineer</h3>
-      <p className="text-center">꾸미는 것을 좋아하는 사람</p>
+      <p className="text-sm lg:text-lg text-center">
+        꾸미는 것을 좋아하는 사람
+      </p>
       <div className="text-center">
         <Link href="/contect">
           <button className="bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-xl px-4 py-1 mt-2">

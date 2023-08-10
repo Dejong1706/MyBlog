@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <section className="flex flex-col items-center">
-      <div className="bg-white text-center w-1/2 rounded-xl">
-        <h2 className="text-3xl font-bold my-2">Contact Me</h2>
+      <div className="w-4/5 lg:w-1/2 bg-white text-center rounded-xl">
+        <h2 className="text-2xl lg:text-3xl font-bold my-2">Contact Me</h2>
         <p>ppk0320@gmail.com</p>
         <ul className="flex gap-4 my-2 justify-center">
           <li>
@@ -36,7 +36,9 @@ export default function ContactPage() {
             </a>
           </li>
         </ul>
-        <h2 className="text-3xl font bold my-8">Or Send me an email</h2>
+        <h2 className="text-xl lg:text-3xl font bold my-8">
+          Or Send me an email
+        </h2>
       </div>
       <ContactForm />
     </section>

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
 };
 
 const TITLE_CLASS = "text-2xl font-bold text-gray-800 my-2";
-const P_CLASS = "font-semibold";
+const P_CLASS = "text-sm lg:text-xl font-semibold";
 export default function AboutPage() {
   return (
     <div>
       <Hero />
-      <section className="p-8 m-8 text-center">
-        <div className="bg-white border-2 border-black p-4 w-2/3 m-auto">
+      <section className="w-full m-auto p-8 m-8 text-center">
+        <div className="w-full m-auto lg:w-2/3 bg-white border-2 border-black p-4 rounded-xl">
           <h2 className={TITLE_CLASS}>Who Am I?</h2>
           <p className={P_CLASS}>꾸미는것을 좋아하는 프론트엔드 개발자 🎨</p>
           <h2 className={TITLE_CLASS}>Carrer</h2>
