@@ -21,7 +21,7 @@ export default function Hero() {
         꾸미는 것을 좋아하는 사람
       </p>
       <div className="text-center">
-        <Link href="/contect">
+        <Link href="/contact">
           <button className="bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-xl px-4 py-1 mt-2">
             Contact Me
           </button>
