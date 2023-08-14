@@ -1,6 +1,10 @@
+"use client";
+
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
+
+const MENU_CLASS = "block text-lg text-white py-4 hover:bg-pink-400";
 
 export default function TabMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,19 +32,18 @@ export default function TabMenu() {
             >
               <AiOutlineClose />
             </button>
-            {/* 메뉴 아이템을 여기에 추가하세요 */}
-            <nav className="space-y-4 p-4">
-              <Link href="/">
-                <p className="block text-lg text-white py-2">home</p>
+            <nav className="space-y-4 mt-8 p-4">
+              <Link href="/" onClick={handleToggle}>
+                <p className={MENU_CLASS}>home</p>
               </Link>
-              <Link href="/about">
-                <p className="block text-lg text-white py-2">about</p>
+              <Link href="/about" onClick={handleToggle}>
+                <p className={MENU_CLASS}>about</p>
               </Link>
-              <Link href="/posts">
-                <p className="block text-lg text-white py-2">posts</p>
+              <Link href="/posts" onClick={handleToggle}>
+                <p className={MENU_CLASS}>posts</p>
               </Link>
-              <Link href="/contact">
-                <p className="block text-lg text-white py-2">contact</p>
+              <Link href="/contact" onClick={handleToggle}>
+                <p className={MENU_CLASS}>contact</p>
               </Link>
             </nav>
           </div>
