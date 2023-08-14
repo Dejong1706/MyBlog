@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <header className={headerClass}>
-      <h1>My Website</h1>
+      <h1>{`"Byeong Geun Blog"`}</h1>
       <TabMenu />
     </header>
   );
