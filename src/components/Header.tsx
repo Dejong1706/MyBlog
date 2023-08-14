@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React from "react";
 import TabMenu from "./TabMenu";
 
@@ -9,7 +10,9 @@ export default function Header() {
 
   return (
     <header className={headerClass}>
-      <h1>{`"Byeong Geun Blog"`}</h1>
+      <Link href="/">
+        <h1>{`Byeong Geun Blog`}</h1>
+      </Link>
       <TabMenu />
     </header>
   );
